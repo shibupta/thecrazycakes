@@ -678,7 +678,8 @@ input#timepicker {
 .w3layouts_event_right {
     padding: 8.6em 6em 7em 6em;
     text-align: center;
-    background: #e8e8e8;
+	background: #e8e8e8;
+	
 }
 .w3layouts_event_right h3{
 	font-size: 1.8em;
@@ -1076,12 +1077,11 @@ img.posi-w3l {
     -ms-background-size: cover;
 }
 .logo-2 h2 a span {
-    display: block;
+	display: block;
+	text-align: start;
     font-size: .25em;
 	letter-spacing: 12px;
-	
-	
-    font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .logo-2 h2 a {
     font-size: 1.4em;
