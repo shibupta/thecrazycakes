@@ -1078,14 +1078,18 @@ img.posi-w3l {
 .logo-2 h2 a span {
     display: block;
     font-size: .25em;
-    letter-spacing: 12px;
+	letter-spacing: 12px;
+	
+	text-align:center;
     font-family: 'Lato', sans-serif;
 }
 .logo-2 h2 a {
     font-size: 1.4em;
     color: #fff;
-    letter-spacing: 3px;
-	text-decoration: none;
+	letter-spacing: 3px;
+	width: 100%;
+	text-decoration:none;
+	text-align:center;
 	font-family: 'Ruslan Display', cursive;
 /*	font-family: 'Oleo Script', cursive; */
 }
@@ -1107,7 +1111,7 @@ img.posi-w3l {
     margin-bottom: 1em;
     color: #d6d6d6;
     font-size: .9em;
-    list-style: none;
+    list-style:none;
     letter-spacing: 1px;
 }
 .w3-agile-footer-grid ul li a{
@@ -1173,8 +1177,9 @@ img.posi-w3l {
 	resize: none;
 }
 .contact-block-left input[type="submit"] {
-    background: #fff;
-    color: #000;
+    background: #fff,0.78;
+	color: #000;
+	width: 100%;
     font-size: 1em;
     border: none;
     padding:.9em 4em;
