@@ -1080,7 +1080,7 @@ img.posi-w3l {
     font-size: .25em;
 	letter-spacing: 12px;
 	
-	text-align:center;
+	
     font-family: 'Lato', sans-serif;
 }
 .logo-2 h2 a {
@@ -1089,13 +1089,13 @@ img.posi-w3l {
 	letter-spacing: 3px;
 	width: 100%;
 	text-decoration:none;
-	text-align:center;
+	
 	font-family: 'Ruslan Display', cursive;
 /*	font-family: 'Oleo Script', cursive; */
 }
 .w3-agile-footer-grid h3{
     color: #FFF;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     font-size: 1.3em;
     text-transform: uppercase;
     font-weight: 600;
@@ -1104,9 +1104,9 @@ img.posi-w3l {
 .w3-agile-footer-grid ul {
     padding: 2em 0 0;
 }
-.grid-w3-1 ul li:nth-child(4), .grid-w3-1 ul li:nth-child(6) {
-    margin-top: 1em;
-}
+/*.grid-w3-1 ul li:nth-child(4), .grid-w3-1 ul li:nth-child(6) {
+    /*margin-top: 1em;}*/
+
 .w3-agile-footer-grid ul li {
     margin-bottom: 1em;
     color: #d6d6d6;
@@ -1128,9 +1128,9 @@ img.posi-w3l {
 }
 /* Style all font awesome icons */
 .fa {
-	padding: 10px;
+	padding: 0px;
 	font-size: 300px;
-	width: 1px;
+	width: 5px;
 	text-align: left;
 	text-decoration: none;
   }
