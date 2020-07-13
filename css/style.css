@@ -1076,7 +1076,23 @@ img.posi-w3l {
     -o-background-size: cover;
     -ms-background-size: cover;
 }
-.logo-2 h2 a span {
+.logo2 h3 {
+	display: block;
+	text-align: center;
+    font-size: .25em;
+	letter-spacing: 12px;
+	font-family: 'Lato', sans-serif;
+}
+log2 h2 a {
+	font-size: 1.4em;
+	text-align: center;
+    color: #fff;
+	letter-spacing: 3px;
+	width: 100%;
+	text-decoration:none;
+	font-family: 'Ruslan Display', cursive;
+}
+.logo-2 h3 {
 	display: block;
 	text-align: start;
     font-size: .25em;
