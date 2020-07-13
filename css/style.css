@@ -1137,6 +1137,21 @@ ul li1{
 ul li1{
 	list-style: none;
 }
+ul li1 a{
+	widows: 80px;
+	height:80px;
+	background: #fff;
+	text-align: center;
+	line-height: 80px;
+	font-size: 35px;
+	margin: 0 10px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #fff;
+}
+
 
 
 .contact-block-left input[type="text"], .contact-block-left input[type="email"], .contact-block-left input.subject, .contact-block-left textarea {
