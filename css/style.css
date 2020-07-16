@@ -1095,23 +1095,7 @@ img.posi-w3l {
 	letter-spacing: 6px;
 	font-family: 'Lato', sans-serif;
 }
-.logo-2 h3 {
-	display: block;
-	text-align: start;
-    font-size: .25em;
-	letter-spacing: 12px;
-	font-family: 'Lato', sans-serif;
-}
-.logo-2 h2 a {
-    font-size: 1.4em;
-    color: #fff;
-	letter-spacing: 3px;
-	width: 100%;
-	text-decoration:none;
-	
-	font-family: 'Ruslan Display', cursive;
-/*	font-family: 'Oleo Script', cursive; */
-}
+
 .w3-agile-footer-grid h3{
     color: #FFF;
     margin-bottom: 0em;
@@ -1173,28 +1157,47 @@ ul li1 a{
 
 
 
-.contact-block-left input[type="text"], .contact-block-left input[type="email"], .contact-block-left input.subject, .contact-block-left textarea {
+.footer-contact-main{
+margin: 0 20% 0 20%;
+position: relative;
+display: flex;
+
+}
+
+.footer-contact-form input[type="text"], 
+/*.footer-contact-form input[type="email"],*/
+.footer-contact-form input.subject, 
+.footer-contact-form textarea {
     font-size: 1em;
     color: #fff;
-    width: 49%;
-    margin: 0 0 .8em;
+    width: 47%;
+    margin: 0 0 0.8em;
     padding: 0.8em;
     outline: none;
     border: none;
     background: rgba(0, 0, 0, 0.78);
 }
-.contact-block-left input.email {
-    margin:0% 0% 0% 1.1%;
+/*.footer-contact-form input.email*/ 
+.footer-contact-form input[type="email"]{
+	font-size: 1em;
+    color: #fff;
+	width: 47%;
+	margin:0 0.5em 0 0; 
+    padding: 0.8em;
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.78);
+    
 }
-.contact-block-left input.subject {
+.footer-contact-form input.subject {
     width: 100%;
 }
-.contact-block-left textarea {
+.footer-contact-form textarea {
     width: 100%;
     height: 13em;
 	resize: none;
 }
-.contact-block-left input[type="submit"] {
+.footer-contact-form input[type="submit"] {
     background: #fff,0.78;
 	color: #000;
 	width: 100%;
@@ -1205,7 +1208,7 @@ ul li1 a{
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.contact-block-left input[type="submit"]:hover{
+.footer-contact-form input[type="submit"]:hover{
     background:#eb422a;
 	color:#fff;
     transition: 0.5s all;
