@@ -1158,49 +1158,38 @@ ul li1 a{
 
 
 .footer-contact-main{
-margin: 0 20% 0 20%;
-position: relative;
-display: flex;
+margin: 0 18% 0 18%;
+
 
 }
 
 .footer-contact-form input[type="text"], 
-/*.footer-contact-form input[type="email"],*/
+.footer-contact-form input[type="email"],
 .footer-contact-form input.subject, 
 .footer-contact-form textarea {
     font-size: 1em;
     color: #fff;
-    width: 47%;
-    margin: 0 0 0.8em;
+    width: 48%;
+    margin: 0 0 0.8em 0;
     padding: 0.8em;
     outline: none;
     border: none;
     background: rgba(0, 0, 0, 0.78);
 }
-/*.footer-contact-form input.email*/ 
-.footer-contact-form input[type="email"]{
-	font-size: 1em;
-    color: #fff;
-	width: 47%;
-	margin:0 0.5em 0 0; 
-    padding: 0.8em;
-    outline: none;
-    border: none;
-    background: rgba(0, 0, 0, 0.78);
-    
-}
+
+.footer-contact-form
 .footer-contact-form input.subject {
-    width: 100%;
+    width: 97%;
 }
 .footer-contact-form textarea {
-    width: 100%;
+    width: 97%;
     height: 13em;
 	resize: none;
 }
 .footer-contact-form input[type="submit"] {
     background: #fff,0.78;
 	color: #000;
-	width: 100%;
+	width: 97%;
     font-size: 1em;
     border: none;
     padding:.9em 4em;
