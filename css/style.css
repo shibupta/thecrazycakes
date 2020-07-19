@@ -7,6 +7,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	font-family: 'Lato', sans-serif;
 }
+.main-heading{
+	background: rgba(0, 0, 0, 0.42);
+}
+.main-heading-1{
+	margin-top: 0%;
+	margin-left: 5%;
+	margin-right: 60%;
+}
+.main-heading-1 h1 a {
+	margin-top: 5%;
+	font-size: 75px;
+    color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Ruslan Display', cursive;
+	/*font-family: 'Oleo Script', cursive;*/
+}
+.main-heading-1 h2 {
+	
+	color: #FFFFFF;
+	text-align: center;
+    font-size: 20px;
+	letter-spacing: 4px;
+	font-family: 'Lato', sans-serif;
+}
 p{
 	margin:0;
 	font-size:1em;
@@ -39,21 +64,7 @@ body a:hover{
 .banner_top {
     margin-top: 2em;
 }
-.logo h1 a {
-    font-size: 1.4em;
-    color: #fff;
-    letter-spacing: 0px;
-	text-decoration: none;
-	font-family: 'Ruslan Display', cursive;
-	/*font-family: 'Oleo Script', cursive;*/
-}
-.logo h1 a span {
-    display: block;
-    font-size: .25em;
-	letter-spacing: 15px;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-}
+
 .slider-info {
     margin-top: 13em;
 }
@@ -243,7 +254,7 @@ body a:hover{
 .mobile-nav-button {
 	position: fixed;
     margin:3em 0em 0;
-    right: 15%;
+    right: 10%;
     top: 0;
     z-index: 999;
     cursor: pointer;
@@ -393,7 +404,8 @@ li.dropdown.act a.w3_icons_act {
     letter-spacing: 2px;
 }
 .w3_menu {
-    margin-top: 2em;
+	margin-top: 0.25em;
+	margin-left: 0%;
 	text-align: right;
 }
 /*-- model --*/ 
@@ -676,22 +688,31 @@ input#timepicker {
     width: 100%;
 }
 .w3layouts_event_right {
-    padding: 8.6em 6em 7em 6em;
+    padding: 20em 6em 10em 6em;
     text-align: center;
-	background: #e8e8e8;
+	
 	
 }
+.w3layouts_event_right-bakerimage{
+	height: 50%;
+	width: 50%;
+}
 .w3layouts_event_right h3{
-	font-size: 1.8em;
-      color: #262c38;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: 800;
+	font-size: 5em;
+	color: #eb422a;
+	font-family: 'Oleo Script', cursive;
+    text-transform:unset;
+	letter-spacing: 1px;
+	font-weight: 900;
+    
 }
 .w3layouts_event_right_para{
 	position: relative;
-    z-index: 1;
-    margin:3em 0;
+	z-index: 1;
+	margin:3em 0;
+}
+.w3layouts_event_right_para p{
+	color: violet;
 }
 .w3layouts_event_right_para_pos{
 	position:absolute;
@@ -1158,7 +1179,7 @@ ul li1 a{
 
 
 .footer-contact-main{
-margin: 0 18% 0 18%;
+margin: 0 30% 0 30%;
 
 
 }
@@ -1169,7 +1190,7 @@ margin: 0 18% 0 18%;
 .footer-contact-form textarea {
     font-size: 1em;
     color: #fff;
-    width: 48%;
+    width: 97%;
     margin: 0 0 0.8em 0;
     padding: 0.8em;
     outline: none;
