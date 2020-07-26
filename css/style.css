@@ -7,6 +7,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	font-family: 'Lato', sans-serif;
 }
+.main-menu{
+	margin-top: 0px;
+}
 .main-heading{
 	background: rgba(0, 0, 0, 0.42);
 }
@@ -16,10 +19,9 @@ body{
 	margin-right: 55%;
 }
 .main-heading-1 h1 a {
-	margin-top: 15%;
-	font-size: 75px;
-    color: #fff;
-	text-align: center;
+	font-size: 70px;
+	color: #fff;
+	text-align: left;
 	text-decoration: none;
 	font-family: 'Ruslan Display', cursive;
 	/*font-family: 'Oleo Script', cursive;*/
@@ -27,7 +29,7 @@ body{
 .main-heading-1 h2 {
 	
 	color: #FFFFFF;
-	text-align: center;
+	text-align: left;
     font-size: 20px;
 	letter-spacing: 4px;
 	font-family: 'Lato', sans-serif;
@@ -404,14 +406,15 @@ li.dropdown.act a.w3_icons_act {
     letter-spacing: 2px;
 }
 .w3_menu {
-	margin-top: 0.25em;
-	margin-left: 0%;
+	margin-top: -6em;
+	
+	margin-left: 50%;
 	text-align: right;
 }
 /*-- model --*/ 
 /*-- login form --*/
 .agileits-login {
-    padding:3em;
+    padding:1em;
 }
 .agileits-login input[type="text"], .agileits-login input[type="password"], .agileits-login input[type="email"], .agileits-login textarea {
     outline: none;
@@ -1098,6 +1101,29 @@ img.posi-w3l {
     -ms-background-size: cover;
 }
 
+.footer-address{
+	margin-left: 25%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+}
+.footer-address-vl-1{
+	display:inline-block;
+	border-left: 2px solid #ccc;
+	height: 115px;
+	margin-left: 100px;
+	margin-bottom: -120px;
+}
+.footer-address-address-col1{
+	margin-left: 0.75%;
+}
+.footer-address-address-col1 p{
+	margin-left: 7em;
+	color: #FFF;
+	letter-spacing: 1px;
+}
+
+
 .logo2 h2  {
 	font-size: 40px;
 	text-align: center;
@@ -1179,7 +1205,7 @@ ul li1 a{
 
 
 .footer-contact-main{
-margin: 0 30% 0 30%;
+margin: 0 25% 0 25%;
 
 
 }
@@ -1190,7 +1216,7 @@ margin: 0 30% 0 30%;
 .footer-contact-form textarea {
     font-size: 1em;
     color: #fff;
-    width: 97%;
+    width: 48.40%;
     margin: 0 0 0.8em 0;
     padding: 0.8em;
     outline: none;
